@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dawning+of+a+New+Day&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="./Assets/style.css">
+    <title>Coding Pop Quiz</title>
+</head>
+<body id="background">
+
+    <nav id="stats">
+        <div class="row">
+            <button id="viewLeaderBtn">View Leaderboard</button>
+            <label id="timerLabel" class="float-right">Time Left: <span id="timerCount"></span></label>
+        </div>
+        <div class="row">
+            <label id="remainingQuestionLabel" class="float-right">Question Left: <span id="questionsRemainingCount"></span></label>
+                <label id="wrongALabel" class="float-right">Wrong: <span id="wrongCount"></span></label>
+                <label id="correctALabel" class="float-right">Correct: <span id="correctCount"></span></label>
+        </div>
+    </nav>
+
+    <div id="main"></div>
+
+    <script src="./Assets/timer.js"></script>
+    
+</body>
+</html>
